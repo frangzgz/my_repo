@@ -12,11 +12,20 @@ num.value = Math.pow(num.value, 3);
 
 }
 
+
 function sen() {
 
 var num = document.getElementById("n3");
 
-num.value = Math.pow(num.value, 3);
+num.value = Math.sin(num);
+}
+
+function tetra() {
+
+var num = document.getElementById("n2");
+
+num.value = Math.pow(num.value, 4);
+
 
 }
 
@@ -34,12 +43,21 @@ Number:
 
 <button onclick="cube()"> x^3 </button>
 
+
+
 <br>
 
 <input type="text" id="n3"><p>
 
 <button onclick="sen()"> sen(x) </button>
 
+
+<br>
+<input type="text" id="n2"><p>
+
+<button onclick="tetra()"> x^4 </button>
+
+
+
 </body>
 
-</html>
